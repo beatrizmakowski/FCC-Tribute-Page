@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+    font-family: 'Prata', serif;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+  #main {
+    margin: 8px 8px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(239,234,228);
+    background: radial-gradient(circle, rgba(239,234,228,1) 0%, rgba(201,172,140,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    max-width: 900px;
+    background: rgba(239,234,228);
+    padding: 20px 20px 0 20px;
+  }
+  
+  #img-caption {
+    margin: 15px 0 0 0;
+    font-size: 1.4rem;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  #tribute-info {
+    max-width: 900px;
+    background: rgba(239,234,228);
+    padding: 20px;
+  }
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 15px 0 15px;
+}
+  
+  blockquote {
+    font-style: italic;
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  #quote-author{
+    font-family: 'Meow Script', cursive;
+    font-size: 3rem;
+  }
+  
+  #read-more {
+    text-align: center;
+  }
+
+  #footer {
+      font-size: medium;
+  }
